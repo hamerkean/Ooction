@@ -5,3 +5,32 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Item.create(
+  name: "スニーカー",
+  description: "とても履きごごちが良くかっこいいスニーカーです！！",
+  price: 10000,
+  seller_id: 32,
+  email: "too.yuu@example.com",
+  image_url:"
+  http://gahag.net/img/201604/14s/gahag-0075998814-1.jpg"
+)
+
+Item.create(
+  name: "バッグ",
+  description:"とても容量が入ってなおかつ軽く感じる作りです！！",
+  price:20000,
+  seller_id:33,
+  email:"tyuihf@example.com",
+  image_url:"
+  https://item-shopping.c.yimg.jp/i/n/galleria-onlineshop_707-07146"
+)
+
+item3 = Item.new(
+  name: "ポンプ",
+  description:"ポンプです。",
+  price:180000,
+  seller_id:34,
+  email:"tyusminiaj:@example.com"
+)
+item3.save
