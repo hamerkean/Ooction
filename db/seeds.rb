@@ -13,7 +13,7 @@ Item.create(
   seller_id: 32,
   email: "too.yuu@example.com",
   image_url:"
-  http://gahag.net/img/201604/14s/gahag-0075998814-1.jpg"
+  https://images-na.ssl-images-amazon.com/images/I/81fbF6yiIYL._UX395_.jpg"
 )
 
 Item.create(
